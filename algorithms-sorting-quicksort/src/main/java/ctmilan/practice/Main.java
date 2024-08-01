@@ -2,6 +2,23 @@ package ctmilan.practice;
 import java.util.Arrays;
 
 public class Main {
+
+    // ====== Summary ======
+    // --Time Complexity--
+    // Best: O(nlogn)
+    // Avg: O(nlogn)
+    // Worst: O(n^2)
+    // --Space Complexity--
+    // Best: O(logn)
+    // Avg: O(logn)
+    // Worst: O(n)
+    // -- Pros --
+    // * Good with large quantity of data
+    // * Requires little memory / overhead
+    // -- Cons --
+    // * Bad pivot choices make time complexity O(n^2)
+    // * Unstable sort (relative order of elements is not preserved)
+
     public static void main(String[] args)
     {
         // The initial arrays
